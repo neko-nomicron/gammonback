@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src="./main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="bg-dark">  
+        <div>
+            <img src="./images/carrington.jpg" alt="pintura leonora carrington">
+        </div>
+
+        <div>
+            <img src="./images/danger.jpg" alt="pintura Kubin">
+        </div>
+
+        <div>
+            <img src="./images/epouvante.jpg" alt="pintura Kubin 2">
+        </div>
+
+        <div>
+            <img src="./images/thebirdmenofburnley.jpg" alt="">
+        </div>
+
+        <div>
+            <h1 class="text-light">Litoride-edirotiL</h1>
+        </div>  
+
+        <div>
+            <img src="./images/Bendito.png" alt="logo de lutoride">
+        </div>
+
+    </header>
+
+<!--CONTAINER HEADER-->
+<!-- -->
+    <div class="container-fluid"> <!--Inicio cotainer principal 0-->
+        <div class="row bg-light"> <!--Inicio fila principal 0-->
+    
+            <div class="col-md-3 bg-light"> <!--Inicio de la columna 1 principal 0-->
+
+                <p>
+                    <br> Explore lo que guste dentro del contenido y encuentre fascinación entre las obras de estas personas oscuras, retorcidas, talentosas, muy creativas y que "dan vida" a aquello que habita las sombras de la naturaleza humana.
+                </p>
+    
+            <!--Despliegue de menú de navegación de biografías de autoras(es) disponibles -->
+                <div id="autorxs">
+                    <h3></h3>
+                    <h3 class="text-dark">Biografías</h3>
+                    <nav>
+                        <ul class="text-dark">
+                            <a href="#poe"><li class="text-dark">Edgar Allan Poe</li></a>
+                            <a href="#lovecraft"><li class="text-dark">Howard Phillips Lovecraft</li></a>
+                            <a href="#enriquez"><li class="text-dark">Mariana Enríquez</li></a>
+                            <a href="#blum"><li class="text-dark">Liliana Blum</li></a>
+                            <a href="#ampuero"><li class="text-dark">María Fernanda Ampuero Velásquez</li></a>
+                            
+                        </ul>
+                    </nav>
+                </div> 
+    
+            <!--Despliegue de menú de navegación para cuentos disponibles -->
+                <div id="cuentos">
+                    <h3 class="text-dark">Cuentos</h3>
+                    <nav>
+                        <ul>
+                            <a href="#gato"><li class="text-dark">El gato negro</li></a>
+                            <a href="#cueva"><li class="text-dark">La bestia en la cueva</li></a>
+                            <a href="#subasta"><li class="text-dark">Subasta</li></a>     
+                        </ul>
+                    </nav>
+                </div>
+    
+            <!--Despliegue de menú de navegación para cuentos disponibles -->
+                <div id="poemas">
+                    <h3 class="text-dark">Poemas</h3>
+                    <nav>
+                        <ul>
+                            <a href="#palace"><li class="text-dark">The haunted palace</li></a>
+                            <a href="#nemesis"><li class="text-dark">Nemesis</li></a>
+                        </ul>
+                    </nav>
+                </div>
+            </div> <!--Fin de la columna 1 principal--> 
+        
+
+            <div class="col-md-9 bg-dark"> <!--Inicio de la columna 2 principal 0-->
+
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"> <!--Inicio carrousel-->
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/raven.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <a href="https://www.cuentosdepoe.com/el-significado-de-el-cuervo-de-edgar-allan-poe/"><h5>El cuervo</h5></a>
+                        <p>El cuervo, uno de los personajes que aparecen en el cuento de Edgar Allan Poe y el que da nombre al relato, es un símbolo tanto de muerte como de dolor..</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/fuego.jpg" class="d-block w-100" alt="portada las cosas que perdimos en el fuego">
+                        <div class="carousel-caption d-none d-md-block">
+                        <a href="https://www.xataka.com/literatura-comics-y-juegos/mariana-enriquez-oscuro-mundo-gran-autora-literatura-terror-espanol"><h5>'Las cosas que perdimos en el fuego' por Mariana Enríquez</h5></a> 
+                        <p>El universo de Enríquez y sus oscuras criaturas. Que a menudo tienen forma de niños, sea como encarnación de los propios espectros, o como sus víctimas, la inocencia de los niños supone también el potencial de la corrupción total.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/visceral.jpg" class="d-block w-100" alt="maria fernanda ampuero reflejo">
+                        <div class="carousel-caption d-none d-md-block">
+                        <a href="https://www.eldiario.es/cultura/libros/maria-fernanda-ampuero-escritora-ninas-quitan-superpoderes-espejos_1_11315631.html"><h5>“Cuando somos niñas nos quitan los superpoderes con espejos”. <br> María Fernanda Ampuero</h5></a>
+                        <p>Escribe historias que dan asco y horror. Su decir incomoda y daña. Sus niñas “comen abismos”. Sus escenarios son subastas humanas, cementerios de pobres, un centro comercial donde se suicida “una gorda”. </p>
+                        </div>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div> <!--Fin carrousel-->
+            </div>
+
+    </div> <!--Fin fila principal 0-->
+</div> <!--Fin cotainer principal 0-->
+
+<!--Menú principal, el cual muestra las opciones principales 
+    <div class="menu">    
+        <nav>
+            <ul>
+                    
+                <a href="#autorxs"><li>Biografías</li></a>
+                <a href="#cuentos"><li>Cuentos</li></a>
+                <a href="#poemas"><li>Poemas</li></a>
+                    
+            </ul>
+
+        </nav>
+    </div> -->
+
+
+<!--CONTAINER 1st Part-->
+<div class="container-fluid"> <!--Inicio cotainer principal-->
+    <div class="row"> <!--Inicio fila principal-->
+
+        <div class="col-md-3 bg-dark"> <!--Inicio de la columna 1 principal-->
+
+        <!--Despliegue de menú de navegación de biografías de autoras(es) disponibles -->
+            
+
+        <!--Despliegue de menú de navegación para cuentos disponibles -->
+            
+        <!--Despliegue de menú de navegación para cuentos disponibles -->
+            
+        </div> <!--Fin de la columna 1 principal-->
+
+            
+        <div class="col-md-9"> <!--Inicio de la columna 2 principal-->
+        <!-- AUTORES -->
+            <div class="container"> <!--Inicio de container secundario-->
+                <div class="row bg-dark"> <!--Biografías **Inicio de Fila 1**-->
+
+                    <div class="col-md-3">
+                            
+                            <div id="poe">   
+                                <img src="./images/poe.jpg" alt="Edgard Allan Poe">
+                            </div> 
+                            <h2 class="text-light"> Edgar Allan Poe </h2>
+                    </div>
+
+                    <div class="col-md-9">
+                            <h5>Nacimiento:</h5> 
+                            <h6>19 de enero de 1809. Boston, MA, Estados Unidos.</h6>
+                            <h5>Muerte:</h5> 
+                            <h6>07 de octubre de 1849. Baltimore, MD, Estados Unidos.</h6> 
+                            <p class="text-light">
+                                Hijo de unos mediocres actores de teatro, quedó huérfano antes de cumplir los tres años. Un acomodado y próspero hombre de negocios, John Allan, que vivía junto a su esposa Frances en Richmond, Virginia, acogió al pequeño Edgar y aunque éste tomó el apellido del padrastro y creció en su hogar, nunca llego a ser adoptado legalmente. Aunque Edgar Allan Poe se consideró un "caballero del Sur", ser huerfano conllevaba un estigma que en la aristocrática y clasista sociedad del Sur de los Estados Unidos era muy difícil de evitar. Poe nunca cuestionó los valores con los cuales fue educado: escepticismo ante el progreso y la democracia, exaltación de la mujer en su papel de esposa y madre, justificación de la esclavitud, idealización del feudalismo medieval y desprecio por el maquinismo.
+                                Los negocios familiares llevaron a Edgar y su familia adoptiva a Londres, donde el joven estudió en uno de los exclusivos internados de Chelsea, donde aprendió a escribir en latín y a hablar francés. Sin embargo, los negocios en el viejo continente no tuvieron el éxito esperado y los Poe regresaron a Richmond en 1820. Mientras que el padrastro de Poe era un hombre huraño, y nunca apoyó a Edgar en su afán de ser escritor, su madre adoptiva puso toda su fe en el muchacho y siempre le demostró su cariño.
+                                De nuevo en su país, Poe se familiarizó con el folclore de las nodrizas y los criados negros, que apenas distinguían entre lo real y lo fantástico, lo ordinario y lo sobrenatural, los vivos y los muertos. Desde niño, escuchó historias sobre zombis, aparecidos y magia negra. Era un ávido lector de los cuentos de terror publicados en las revistas inglesas y escocesas que llegaban a la oficina de su padrastro. Lo gótico y lo romántico se mezclaban en esas historias en las que los argumentos tenían lugar en páramos sombríos, mansiones en ruinas y cuyas protagonistas eran familias castigadas por una maldición. Por entonces, el joven aprendió a recitar poemas de Walter Scott para deleite de las amigas de su madre.
+                                Haz click <a href="https://historia.nationalgeographic.com.es/a/edgar-allan-poe-maestro-literario-terror_14764">aquí</a> para seguir leyendo la biografía del señor Poe.
+
+                            </p>
+                    </div>
+                </div> <!--Biografías **Fin de Fila 1**-->
+
+                <div class="row bg-light"> <!--Biografías **Inicio de Fila 2**-->
+                    <div class="col-md-3">
+                            <div id="lovecraft">
+                                <img src="./images/lovecraft.jpg" alt="H. P. Lovecraft">
+                            </div>
+                            <h2 class="text-dark">Howard Phillips Lovecraft </h2>
+                    </div>
+
+                    <div class="col-md-9">
+                            
+                            <h5>Nacimiento:</h5> 
+                            <h6>20 de agosto de 1890. Providence, RI, Estados Unidos.</h6>
+                            <h5>Muerte:</h5> <h6>15 de marzo de 1937. Providence, RI, Estados Unidos.</h6>
+                            <p class="text-dark">
+                                Howard Phillips Lovecraft tenía debilidad por los helados y por los gatos. De hecho, tenía un gato negro, y según sus propias palabras: "No me disgustan los perros más de lo que lo hacen los monos, los seres humanos, los comerciantes, las vacas, las ovejas o los pterodáctilos, pero por los gatos tengo un particular respeto y afecto desde los primeros días de mi infancia".
+                                La infancia de Lovecraft estuvo marcada por la trágica muerte de su padre en un centro psiquiátrico tras diagnosticársele paresia, una ausencia parcial de movimiento voluntario que es un síntoma común de la esclerosis múltiple, y una fase terminal de neurosíifilis. Lovecraft además tuvo una mala relación con su madre, Sarah Susan Phillips, una puritana ultraconservadora.
+                                Sarah negaba a su hijo cualquier muestra de cariño, y muchos críticos la consideran la causante del comportamiento un tanto extravagante que el escritor mostraría durante toda su vida. Lo sobreprotegió hasta límites demenciales y lo trató como si fuera su único bien en la tierra. Esta actitud provocó que a Lovecraft le costara convivir con su entorno debido a la poca habilidad que desarrolló para relacionarse con el resto de las personas. Esta situación llevó al joven Lovecraft a evadirse de la estricta educación materna y a frecuentar parajes solitarios para poder dar rienda suelta a su imaginación.
+                                En cambio, Lovecraft sí llegó a establecer una gran y estrecha relación con su abuelo materno, Whipple Van Buren Phillips.
+                                Entre 1903 y 1908, Lovecraft vivió como un ermitaño sin apenas contacto con el mundo exterior,excepto el que tenía con su madre y con sus tías. Ese tiempo lo pasó escribiendo poesía. La situación cambió cuando, molesto por lo aburridas que eran las historias románticas de la época, envió una carta a la revista Argosy quejándose sobre la insipidez de los relatos de uno de los escritores más populares de la publicación, Fred Jackson.
+                                Haz click <a href="https://historia.nationalgeographic.com.es/a/h-p-lovecraft-creador-mundos-imaginarios_14570">aquí</a> para terminar de leer la biografía del enigmático Lovecraft.
+                            </p>
+                    </div>
+                </div> <!--Biografías **Inicio de Fila 2**-->
+
+                <div class="row bg-dark"> <!--Biografías **Inicio de Fila 3**-->
+                    <div class="col-md-3">
+                            <div id="enriquez">
+                                <img src="./images/enriquez.jpg" alt="Mariana Enríquez">
+                            </div>
+                            <h2 class="text-light">Mariana Enríquez</h2>
+                            
+                    </div>
+
+                    <div class="col-md-9">
+                            <h5>Nacimiento:</h5>
+                            <h6>6 de diciembre de 1973. Buenos Aires, Argentina.</h6>
+                            <p class="text-light">
+                                La infancia de Mariana Enríquez estuvo marcada por el oscuro absurdo del autoritarismo. Durante la dictadura militar que gobernó Argentina de 1976 a 1983, un miedo latente impregnaba incluso los aspectos más mundanos de la vida.
+                                Organizar una fiesta de cumpleaños requería el permiso de las autoridades locales. Las conversaciones eran potencialmente peligrosas: de niña, sabía que ciertas cosas que podían discutirse en casa estaban prohibidas en compañía de otras personas, pero no entendía muy bien por qué. El miedo a dejar escapar el pensamiento equivocado la hacía bastante parca, dice, y la empujaba hacia “los libros y cosas muy solitarias”.
+                                Cuando cayó la dictadura en 1983, y sus líderes fueron juzgados dos años después, el testimonio de sus víctimas se hizo ineludible en la sociedad argentina, dijo Enríquez. Rodeada de ellos, no tuvo más remedio que cerrar las brechas en su entendimiento. Los informes de detenciones, torturas, desapariciones y asesinatos representaron su primer contacto con el “verdadero horror”, dijo, y más tarde se convertirían en el hilo conductor de su obra, repleta de fantasmas, demonios y relatos de lo oculto.
+                                Enríquez escribió su primera novela, Bajar es lo peor, cuando aún era una adolescente que se enfrentaba a esa realidad. Recientemente reeditada en español por Anagrama, es una historia de drogas, sexo y juventud malgastada o maltratada, temas que ahora ha retomado con una mirada adulta.
+                                Continúe leyendo sobre la oscura y telentosa Mariana Enríquez, haciendo click <a href="https://www.nytimes.com/es/2023/02/06/espanol/mariana-enriquez.html">aquí.</a>
+                            </p>
+                    </div>
+                </div> <!--Biografías **Fin de Fila 3**-->
+                
+                
+                <div class="row bg-light"> <!--Biografías **Inicio de Fila 4**-->
+                    <div class="col-md-3">
+                            <div id="blum">
+                                <img src="./images/blum.jpg" alt="Liliana Blum">
+                            </div>
+                            <h2 class="text-dark">Liliana Blum </h2>     
+                    </div>
+
+                    <div class="col-md-9">
+                            <h5>Nacimiento:</h5> 
+                            <h6>1974. Durango, México.</h6> 
+                            <p class="text-dark">
+                                Liliana Blum alienta a las mujeres interesadas en la literatura a escribir sin autocensurarse. actualmente es considerada una de las mejores narradoras mexicanas contemporáneas. Entre sus obras se encuentran El monstruo pentápodo (2017), Pandora (2015), Residuos de espanto (2013), No me pases de largo (2013), Yo sé cuando expira la leche (2011) y El libro perdido de Heinrich Böll (2008). Sus más actuales novelas El extraño caso de Lenny Goleman (2022) y Cara de liebre (2020), y relatos como Un descuido cósmico (2023) y Todas hemos perdido algo (2020).
+                                Puede seguir leyendo la cruda entrevista realizada en 2019 por Denise Elizabeth Ocaranza Ordóñez a la increíble y cruda Liliana Blum, dando click <a href="https://www.revistasinfin.com/articulos/escribir-siendo-mujer-entrevista-con-liliana-blum/">aquí</a>.
+                            </p>
+                    </div>
+                </div> <!--Biografías **Fin de Fila 4**-->
+                
+                <div class="row bg-dark"> <!--Biografías **Inicio de Fila 5**-->
+                    <div class="col-md-3">
+                            <div id="ampuero">
+                                <img src="./images/ampuero.jpg" alt="María Fernanda Ampuero">
+                            </div>
+                            <h2 class="text-light"> María Fernanda Ampuero Velásquez </h2>        
+                    </div>
+
+                    <div class="col-md-9">
+                                <h5>Nacimiento: </h5>
+                                <h6>14 de abril de 1976. Guayaquil, Ecuador.</h6>
+                            
+                            <p class="text-light">
+                                Desde pequeña mostró un gran interés por la literatura. Comenzó siendo una apasionada lectora y el camino la llevó a convertirse en periodista y narradora.
+                                Estudió en la Universidad Católica de Santiago de Guayaquil y cursó un taller de periodismo que le permitió descubrir su gran pasión por la crónica.
+                                A los 28 años se mudó a España, donde consiguió con mucho esfuerzo ganarse la vida como escritora. En julio de 2019 fue nombrada gerenta del Plan Nacional del Libro y la Lectura José de la Cuadra. Fue la encargada de organizar la XII Feria Internacional del Libro de Quito.
+                                Puedes seguir leyendo sobre las obras de María Fernanda Ampuero <a href="https://www.bestialectora.com/2021/04/biografia-de-maria-fernanda-ampuero.html">aquí.</a>
+                                Luego de estudiar Literatura en la Universidad Católica de Santiago de Guayaquil, fue profesora en el colegio Alemán Humboldt. Aunque siempre le interesó el lenguaje escrito, formó parte de un taller de radio que más tarde se convertiría en Radio City, un proyecto entre diario El Universo y la BBC de Londres. Mientras el proyecto se consolidaba, María Fernanda trabajó en la sección Economía del periódico, donde “no daba pie con bola” hasta que su entonces editor, el periodista Rubén Darío Buitrón notó su talento y le propuso trabajar en otros temas. La delantera periodística ganadora se consolidó con ella, Francisco Santana, Jorge Martillo y Verónica Garcés, en un momento que bien podría llamarse la época de oro de diario El Universo. No estudió periodismo, pero lo ha ejercido incluso antes que la literatura y dice amarlo como a pocas cosas. Actualmente tiene una columna semanal de opinión en el medio digital ecuatoriano Primicias.  
+                                Las pequeñas o grandes valentías están omnipresentes en los libros de María Fernanda: Lo que aprendí en la peluquería (2011), Permiso de residencia (2013), Pelea de gallos (2018) y Sacrificios humanos (2021). 
+                                Puedes continuar leyendo la entrevista que le hizo Issa Aguilar Jara a la talentosísima María Fernanda Ampuero, dando click <a href="https://latinamericanliteraturetoday.org/es/2023/12/maria-fernanda-ampuero-no-me-siento-una-escritora-de-exito-y-se-que-todo-es-oropel/">aquí.</a>
+                            </p>
+                    </div>
+                </div> <!--Biografías **Fin de Fila 5**-->
+            </div> <!--Fin de container secundario-->
+        
+
+            <!--CUENTOS-->
+            <div class="container-sm" id="gato">
+                <h2 class="text-dark">El gato negro (1845)</h2> 
+                <h4 class="text-dark">Edgar Allan Poe </h4> 
+                <p class="text-dark">
+                    No espero ni solicito que se me crea en el relato más salvaje y a la vez más casero que estoy a punto de escribir. Sería una locura esperarla, en un caso en el que mis propios sentidos rechazan su propia evidencia. 
+                    Sin embargo, no estoy loco, y con toda seguridad no sueño. Pero mañana muero, y hoy quiero desahogar mi alma. Mi propósito inmediato es exponer ante el mundo, de forma clara, sucinta y sin comentarios, una serie de meros acontecimientos domésticos. 
+                    Por sus consecuencias, estos acontecimientos me han aterrorizado, torturado y destruido. Sin embargo, no intentaré exponerlos. 
+                    Para mí, han presentado poco más que Horror -- para muchos parecerán menos terribles que los barrocos. En lo sucesivo, tal vez, se encuentre algún intelecto que reduzca mi fantasma al lugar común, 
+                    algún intelecto más calmado, más lógico y mucho menos excitable que el mío, que perciba, en las circunstancias que detallo con asombro, nada más que una sucesión ordinaria de causas y efectos muy naturales. <br>
+            
+                    <br>Desde mi infancia me distinguí por la docilidad y humanidad de mi carácter. Mi ternura de corazón era incluso tan conspicua que me convertía en la burla de mis compañeros. Me gustaban especialmente los animales, y mis padres me mimaron con una gran variedad de mascotas. 
+                    Con ellos pasaba la mayor parte del tiempo, y nunca era tan feliz como cuando los alimentaba y acariciaba. Esta peculiaridad de mi carácter creció con mi crecimiento y, en mi madurez, derivé de ella una de mis principales fuentes de placer. 
+                    Para quienes han sentido afecto por un perro fiel y sagaz, no necesito tomarme la molestia de explicar la naturaleza o la intensidad de la gratificación así derivada. Hay algo en el amor desinteresado y abnegado de un animal que llega directamente 
+                    al corazón de quien ha tenido frecuentes ocasiones de poner a prueba la mísera amistad y la escasa fidelidad de un simple hombre. <br>
+            
+                    <br>Me casé pronto, y me alegré de encontrar en mi esposa una disposición que no era incompatible con la mía. Observando mi predilección por los animales domésticos, no perdió ocasión de procurarse los más agradables. 
+                    Teníamos pájaros, peces dorados, un buen perro, conejos, un pequeño mono y un gato. <br>
+
+                    <br>Este último era un animal extraordinariamente grande y hermoso, completamente negro y sagaz hasta un punto asombroso. Al hablar de su inteligencia, mi esposa, que en el fondo estaba no poco teñida de superstición, aludía con frecuencia a la antigua noción popular, 
+                    que consideraba a todos los gatos negros como brujas disfrazadas. No es que ella hablara en serio sobre este punto, y no menciono el asunto por otra razón que no sea la de recordarlo en este momento.<br>
+
+                    <br>Pluto -así se llamaba el gato- era mi mascota favorita y mi compañero de juegos. Sólo yo le daba de comer y él me acompañaba a todas partes de la casa. Incluso con dificultad podía evitar que me siguiera por las calles. <br>
+                
+                    <br>Nuestra amistad duró, de este modo, varios años, durante los cuales mi temperamento y mi carácter en general -por obra del demonio de la intemperancia- habían experimentado (me ruboriza confesarlo) una alteración radical para peor. 
+                    Me volví, día tras día, más malhumorado, más irritable, más indiferente a los sentimientos de los demás. Me permitía usar un lenguaje destemplado con mi esposa. Al final, incluso le ofrecí violencia personal. 
+                    Mis mascotas, por supuesto, sintieron el cambio en mi disposición. No sólo los descuidé, sino que los maltraté. Por Plutón, sin embargo, aún conservaba suficiente afecto para no maltratarlo, como no tenía escrúpulos en maltratar a 
+                    los conejos, al mono o incluso al perro, cuando por accidente o por afecto se cruzaban en mi camino. Pero mi enfermedad crecía en mí, ¡qué enfermedad es como el alcohol! -- y al fin hasta Plutón, que ya se estaba haciendo viejo, y por consiguiente algo malhumorado 
+                    -- hasta Plutón empezó a experimentar los efectos de mi mal genio. <br>
+            
+                    <br>Una noche, volviendo a casa, muy embriagado, de uno de mis rincones de la ciudad, me pareció que el gato evitaba mi presencia. Lo agarré y, asustado por mi violencia, me hizo una pequeña herida en la mano con los dientes. La furia de un 
+                    demonio me poseyó al instante. Ya no me conocía. Mi alma original pareció, al instante, huir de mi cuerpo; y una malevolencia más que diabólica, alimentada por la ginebra, estremeció cada fibra de mi cuerpo. Saqué del bolsillo de mi chaleco un cortaplumas, 
+                    lo abrí, agarré a la pobre bestia por el cuello y le arranqué deliberadamente un ojo de la cuenca. Me sonrojo, me quemo, me estremezco, mientras escribo la maldita atrocidad. <br>
+            
+                    <br>Cuando recobré la razón por la mañana, después de haber dormido los vapores del desenfreno nocturno, experimenté un sentimiento mitad de horror, mitad de remordimiento, por el crimen del que había sido culpable; 
+                    pero era, en el mejor de los casos, un sentimiento débil y equívoco, y el alma permanecía intacta. Volví a sumirme en el exceso y pronto ahogué en vino todo recuerdo del acto. <br>
+        
+                    <br>Mientras tanto, el gato se recuperaba lentamente. La cuenca del ojo perdido presentaba, es cierto, un aspecto espantoso, pero ya no parecía sufrir dolor alguno. Recorrió la casa como de costumbre, pero, como era de esperar, huyó aterrorizado cuando me acerqué. 
+                    Me quedaba tanto de mi antiguo corazón, que al principio me sentí apenado por esta evidente aversión por parte de una criatura que una vez me había amado tanto. Pero este sentimiento pronto dio paso a la irritación. Y entonces llegó, como para mi final e irrevocable derrocamiento, el espíritu de PERVERSACIÓN. 
+                    La filosofía no tiene en cuenta este espíritu. Sin embargo, no estoy más seguro de que mi alma vive, que de que la perversidad es uno de los impulsos primitivos del corazón humano, una de las facultades primarias indivisibles, o sentimientos, que dan dirección al carácter del hombre. 
+                    ¿Quién no se ha encontrado, cien veces, cometiendo una acción vil o tonta, sin otra razón que la de saber que no debe hacerlo? ¿No tenemos una inclinación perpetua, en contra de nuestro mejor juicio, a violar lo que es Ley, simplemente porque entendemos que lo es? Este espíritu de perversidad, 
+                    digo, vino a mi derrocamiento final. Fue este insondable anhelo del alma de vejarse a sí misma, de ofrecer violencia a su propia naturaleza, de hacer el mal sólo por el mal mismo, lo que me impulsó a continuar y finalmente a consumar la injuria que había infligido al bruto no ofensor. 
+                    Una mañana, con la sangre fría, le puse la soga al cuello y lo colgué de la rama de un árbol; -- lo colgué con lágrimas en los ojos y con el más amargo remordimiento en el corazón; -- lo colgué porque sabía que me había amado y porque sentía que no me había ofendido; -- 
+                    la colgué porque sabía que al hacerlo cometía un pecado, un pecado mortal que pondría en peligro mi alma inmortal hasta el punto de colocarla, si tal cosa fuera posible, fuera del alcance de la infinita misericordia del Dios Más Misericordioso y Más Terrible. <br>
+        
+                    <br>En la noche del día en que se cometió este cruel acto, me despertó el grito de fuego. Las cortinas de mi cama estaban en llamas. Toda la casa ardía. Con gran dificultad, mi esposa, un sirviente y yo escapamos de la conflagración. La destrucción era total. Toda mi riqueza mundana fue devorada, y desde entonces me resigné a la desesperación. <br>
+        
+                    <br>Estoy por encima de la debilidad de tratar de establecer una secuencia de causa y efecto, entre el desastre y la atrocidad. Pero estoy detallando una cadena de hechos, y no deseo dejar imperfecto ni siquiera un posible eslabón. Al día siguiente del incendio, visité las ruinas. 
+                    Las paredes, con una excepción, se habían derrumbado. Esta excepción se encontraba en una pared compartimentada, no muy gruesa, que se alzaba más o menos en la mitad de la casa, y contra la cual había descansado la cabecera de mi cama. El enlucido había resistido aquí en gran medida la acción del fuego, 
+                    hecho que atribuí a que había sido extendido recientemente. Alrededor de esta pared se había reunido una densa multitud, y muchas personas parecían estar examinando una parte particular de ella con una atención muy minuciosa y ansiosa. Las palabras «¡extraño! «y otras expresiones similares, 
+                    excitaron mi curiosidad. Me acerqué y vi, como grabada en bajorrelieve sobre la blanca superficie, la figura de un gato gigantesco. La impresión era de una exactitud realmente maravillosa. Había una cuerda alrededor del cuello del animal. <br>
+
+                    <br>Cuando contemplé por primera vez esta aparición -pues apenas podía considerarla menor-, mi asombro y mi terror fueron extremos. Pero al fin la reflexión vino en mi ayuda. Recordé que el gato había sido colgado en un jardín adyacente a la casa. Al producirse la alarma de incendio, el jardín había sido inmediatamente 
+                    llenado por la multitud, alguno de los cuales debió de cortar al animal del árbol y arrojarlo a mi habitación a través de una ventana abierta. Probablemente lo habían hecho para despertarme del sueño. La caída de otras paredes había comprimido a la víctima de 
+                    mi crueldad en la sustancia del yeso recién extendido; la cal del cual, con las llamas y el amoníaco del cadáver, había realizado entonces el retrato tal como yo lo vi. <br>
+        
+                    <br>Aunque de este modo pude dar cuenta a mi razón, si no del todo a mi conciencia, del sorprendente hecho que acababa de detallar, no por ello dejó de causar una profunda impresión en mi imaginación. Durante meses no pude librarme del fantasma del gato; y, durante este período, volvió a mi espíritu un medio sentimiento que parecía, pero no era, 
+                    remordimiento. Llegué al extremo de lamentar la pérdida del animal y de buscar a mi alrededor, entre las viles guaridas que ahora frecuentaba habitualmente, otra mascota de la misma especie y de apariencia algo similar, con la cual suplir su lugar. <br>
+                
+                    <br>Una noche, mientras estaba sentado, medio estupefacto, en un antro más que infame, mi atención se fijó de pronto en un objeto negro que reposaba sobre la cabeza de uno de los inmensos barriles de ginebra o de ron que constituían el principal mobiliario de la vivienda. 
+                    Llevaba varios minutos mirando fijamente la parte superior del barril, y lo que ahora me sorprendió fue el hecho de no haber percibido antes el objeto. Me acerqué y lo toqué con la mano. Era un gato negro, muy grande, tanto como Plutón, y muy parecido a él en todo menos en una cosa. 
+                    Plutón no tenía un pelo  blanco en ninguna parte del cuerpo, pero este gato tenía una gran mancha blanca, aunque indefinida, que cubría casi toda la región del pecho. <br>
+
+                    <br>Cuando lo toqué, se levantó inmediatamente, ronroneó con fuerza, se frotó contra mi mano y pareció encantado de que me fijara en él. Se trataba, pues, de la criatura que yo buscaba. Inmediatamente me ofrecí a comprársela al dueño, pero éste no la reclamó, no sabía nada de ella, no la había visto nunca. <br>
+
+                    <br>Continué con mis caricias y, cuando me dispuse a volver a casa, el animal se mostró dispuesto a acompañarme. Se lo permití, agachándome de vez en cuando y acariciándolo mientras avanzaba. Cuando llegó a la casa, se domesticó de inmediato y se convirtió en el favorito de mi esposa.<br>
+            
+                    <br>Por mi parte, no tardé en sentir aversión por él. Era justo lo contrario de lo que había previsto; pero, no sé cómo ni por qué, su evidente afecto por mí mismo me disgustaba y me molestaba. Poco a poco, estos sentimientos de disgusto y molestia se convirtieron en la amargura del odio. 
+                    Evitaba a la criatura; un cierto sentimiento de vergüenza, y el recuerdo de mi anterior acto de crueldad, me impedían maltratarla físicamente. Durante algunas semanas no la golpeé ni la maltraté violentamente; pero gradualmente -muy gradualmente- llegué a mirarla con un odio indecible y a 
+                    huir silenciosamente de su odiosa presencia, como del aliento de una peste. <br>
+            
+                    <br>Lo que aumentó, sin duda, mi odio hacia la bestia, fue el descubrimiento, a la mañana siguiente de llevarla a casa, de que, como Plutón, también había sido privada de uno de sus ojos. Esta circunstancia, sin embargo, no hizo más que encariñarlo con mi esposa, quien, como ya he dicho, poseía, 
+                    en alto grado, esa humanidad de sentimientos que una vez había sido mi rasgo distintivo, y la fuente de muchos de mis placeres más simples y puros. <br>
+                    Con mi aversión hacia este gato, sin embargo, su parcialidad hacia mí parecía aumentar. Seguía mis pasos con una pertinacia que sería difícil hacer comprender al lector. Siempre que me sentaba, se agazapaba bajo mi silla, o saltaba sobre mis rodillas, cubriéndome con sus repugnantes caricias. 
+                    Si me levantaba para caminar, se metía entre mis pies y así casi me tiraba al suelo, o, clavando sus largas y afiladas garras en mi vestido, trepaba, de esta manera, hasta mi pecho. En tales ocasiones, aunque anhelaba destruirla de un golpe, me lo impedía, en parte por el recuerdo 
+                    de mi anterior crimen, pero sobre todo -permítaseme confesarlo de una vez- por el miedo absoluto a la bestia. <br>
+        
+                    <br>Este temor no era exactamente un temor al mal físico, y sin embargo no sabría cómo definirlo de otro modo. Casi me avergüenzo de reconocer -sí, incluso en esta celda de delincuente, casi me avergüenzo de reconocer- que el terror y el horror que me inspiraba el animal se habían visto 
+                    acrecentados por una de las más meras quimeras que sea posible concebir. Mi esposa me había llamado la atención, más de una vez, sobre el carácter de la marca de pelo blanco, de la que he hablado, y que constituía la única diferencia visible entre la extraña bestia y la que yo había destruido. 
+                    El lector recordará que esta marca, aunque grande, había sido originalmente muy indefinida; pero, por lentos grados -grados casi imperceptibles, y que durante mucho tiempo mi Razón luchó por rechazar como fantasiosos- había, finalmente, asumido una rigurosa distinción de contorno. 
+                    Era ahora la representación de un objeto que me estremecía nombrar, y por esto, sobre todo, lo aborrecía y temía, y me habría librado del monstruo si me hubiera atrevido; era ahora, digo, la imagen de una cosa horrenda, espantosa, ¡de los GALLOWS! -- Oh, lúgubre y terrible motor del horror y del crimen, de la agonía y de la muerte.<br>
+                
+                    <br>Y ahora era yo realmente desdichado más allá de la desdicha de la simple Humanidad. Y una bestia bruta, cuyo semejante yo había destruido desdeñosamente, una bestia bruta que trabajaba para mí, para mí, un hombre formado a imagen del Dios Supremo, ¡tanto dolor insufrible! Ni de día ni de noche volví a conocer la bendición del descanso. 
+                    Durante la primera, la criatura no me dejaba solo ni un momento; y, en la segunda, cada hora salía de sueños de miedo indecible, para encontrar el aliento caliente de la cosa en mi cara, y su enorme peso -una pesadilla encarnada de la que no tenía poder para librarme- incumbiendo eternamente a mi corazón. <br>
+            
+                    <br>Bajo la presión de tormentos como estos, el débil remanente del bien dentro de mí sucumbió. Los malos pensamientos se convirtieron en mis únicos íntimos, los más oscuros y perversos. El mal humor de mi temperamento habitual aumentó hasta convertirse en odio hacia todas las cosas y hacia toda la humanidad; 
+                    mientras que, debido a los repentinos, frecuentes e ingobernables estallidos de furia a los que ahora me abandonaba ciegamente, mi esposa, que no se quejaba, era, por desgracia, la más habitual y la más paciente de las que sufrían. <br>
+            
+                    <br>Un día me acompañó al sótano del viejo edificio que nuestra pobreza nos obligaba a habitar. El gato me siguió por las empinadas escaleras y, casi tirándome de cabeza, me exasperó hasta la locura. Levantando un hacha, y olvidando, en mi ira, el temor infantil que hasta entonces había detenido mi mano, dirigí un golpe al animal que, 
+                    por supuesto, habría resultado instantáneamente fatal si hubiera descendido como yo deseaba. Pero este golpe fue detenido por la mano de mi esposa. Llevado por la interferencia a una furia más que demoníaca, 
+                    retiré mi brazo de sus manos y le hundí el hacha en el cerebro. Cayó muerta en el acto, sin un gemido. <br>
+                
+                    <br>Consumado este horrendo asesinato, me dispuse de inmediato, y con toda deliberación, a la tarea de ocultar el cadáver. Sabía que no podría sacarlo de la casa, ni de día ni de noche, sin correr el riesgo de ser observado por los vecinos. Se me ocurrieron muchos proyectos. En un momento pensé en cortar el cadáver en fragmentos 
+                    diminutos y destruirlos con fuego. En otro momento, decidí cavar una tumba en el suelo del sótano. Volví a deliberar sobre la posibilidad de arrojarlo al pozo del patio, de empaquetarlo en una caja, como si fuera mercancía, con los arreglos habituales, 
+                    y así conseguir que un mozo se lo llevara de la casa. Finalmente di con lo que consideré una solución mucho mejor que cualquiera de las anteriores. Decidí encerrarlo en el sótano, como los monjes de la Edad Media encerraban a sus víctimas. <br>
+            
+                    <br>Para un propósito como éste, el sótano estaba bien adaptado. Sus paredes no estaban bien construidas, y hacía poco que habían sido enlucidas por todas partes con un yeso áspero, que la humedad del ambiente había impedido que se endureciera. Además, en una de las paredes había un saliente provocado por una falsa chimenea, 
+                    que había sido rellenada para asemejarla al resto del sótano. No dudé de que podría desplazar fácilmente los ladrillos en ese punto, introducir el cadáver y tapiarlo todo como antes, de modo que ningún ojo pudiera detectar nada sospechoso. <br>
+
+                    <br>Y en este cálculo no me engañé. Con una palanca desprendí fácilmente los ladrillos y, después de depositar cuidadosamente el cadáver contra la pared interior, lo mantuve en esa posición, mientras, con poca dificultad, volví a colocar toda la estructura tal como estaba originalmente. Habiéndome procurado mortero, arena y pelo, 
+                    con todas las precauciones posibles, preparé un enlucido que no podía distinguirse del antiguo, y con él repasé cuidadosamente la nueva mampostería. Cuando terminé, me sentí satisfecho de que todo estuviera bien. La pared no daba la menor impresión de haber sido alterada. 
+                    La basura del suelo había sido recogida con sumo cuidado. Miré triunfante a mi alrededor y me dije: «Al menos aquí mi trabajo no ha sido en vano». <br>
+                
+                    <br>Mi siguiente paso fue buscar a la bestia que había sido la causa de tanta desdicha; porque, al fin, había resuelto firmemente darle muerte. Si hubiera podido encontrarla en ese momento, no habría habido duda de su destino; pero parecía que el astuto animal se había alarmado por la violencia de mi ira anterior, 
+                    y se abstuvo de presentarse en mi estado de ánimo actual. Es imposible describir o imaginar la profunda y dichosa sensación de alivio que la ausencia de la detestada criatura provocó en mi pecho. No hizo su aparición durante la noche, y así, por lo menos durante una noche, 
+                    desde su introducción en la casa, dormí profunda y tranquilamente; ¡sí, dormí incluso con la carga del asesinato sobre mi alma! <br>
+
+                    <br>Pasaron el segundo y el tercer día, y mi verdugo seguía sin aparecer. Una vez más respiré como un hombre libre. El monstruo, aterrorizado, había huido del lugar para siempre. Ya no lo vería más. Mi felicidad era suprema. La culpa de mi oscuro acto me perturbaba muy poco. Se habían hecho algunas indagaciones, 
+                    pero habían sido respondidas con prontitud. Incluso se había iniciado un registro, pero, por supuesto, no se descubrió nada. Consideraba que mi futura felicidad estaba asegurada. <br>
+
+                    <br>Al cuarto día del asesinato, un grupo de la policía entró inesperadamente en la casa y procedió de nuevo a hacer una rigurosa investigación del lugar. Seguro, sin embargo, de la inescrutabilidad de mi lugar de ocultación, no sentí ninguna vergüenza. Los agentes me pidieron que les acompañara en su búsqueda. 
+                    No dejaron rincón o esquina sin explorar. Al final, por tercera o cuarta vez, descendieron al sótano. No me tembló ni un músculo. Mi corazón latía tranquilamente como el de quien duerme en la inocencia. Recorrí el sótano de punta a punta. Crucé los brazos sobre el pecho y deambulé con facilidad de un lado a otro. 
+                    La policía estaba completamente satisfecha y preparada para partir. El regocijo en mi corazón era demasiado fuerte para ser contenido. Ardía en deseos de decir aunque sólo fuera una palabra, a modo de triunfo, y para que estuvieran doblemente seguros de mi inocencia. <br>
+
+                    <br>«Caballeros -dije al fin, mientras el grupo subía los escalones-, me complace haber disipado sus sospechas. Les deseo salud y un poco más de cortesía. Por cierto, caballeros, esta... esta es una casa muy bien construida». (En el rabioso deseo de decir algo fácilmente, apenas supe lo que pronuncié). -- 
+                    «Puedo decir una casa excelentemente bien construida. Estas paredes... ¿se van, caballeros? -- estas paredes están sólidamente unidas;» y aquí, por el mero frenesí de la bravuconada, golpeé fuertemente, con un bastón que tenía en la mano, sobre aquella misma porción de la obra de ladrillo detrás de la cual estaba el cadáver de la esposa de mi pecho. <br>
+
+                    <br>Pero ¡que Dios me proteja y me libre de los colmillos del Archienemigo! Apenas se hizo el silencio al resonar de mis golpes, me respondió una voz desde el interior de la tumba. -- Un grito, al principio ahogado y entrecortado, como el sollozo de un niño, y que rápidamente se convirtió en un grito largo, 
+                    fuerte y continuo, totalmente anómalo e inhumano, un aullido, un chillido ululante, mitad de horror y mitad de triunfo, como sólo podría haber surgido del infierno, conjuntamente de las gargantas de los condenados en su agonía y de los demonios que se regocijan en la condenación. <br>
+        
+                    <br>Es una locura hablar de mis propios pensamientos. Desmayándome, me tambaleé hacia la pared opuesta. Durante un instante, los que estaban en la escalera permanecieron inmóviles, presa del terror y del pavor. Al instante siguiente, una docena de brazos robustos se afanaban en la pared. El cuerpo cayó. 
+                    El cadáver, ya muy descompuesto y coagulado de sangre, se erguía ante los ojos de los espectadores. Sobre su cabeza, con la boca roja y extendida y un solitario ojo de fuego, estaba sentada la horrible bestia cuya astucia me había seducido para asesinar y cuya voz delatora me había consignado al verdugo. Había encerrado al monstruo en la tumba. 
+                </p>
+            </div>
+
+            <br>
+
+            <div class="container-sm bg-dark" id="cueva">
+                <h2 class="text-light">La Bestia en la Cueva (escrito en 1905, publicado en 1920)</h2>
+                <h4 class="text-light">H. P. Lovecraft</h4>
+
+                <p class="text-light">
+                    La horrible conclusión que se había ido imponiendo gradualmente en mi mente confusa y reacia era ahora una horrible certeza. Estaba perdido, completamente, irremediablemente perdido en el vasto y laberíntico recoveco de la Cueva del Mamut. Por más que me volvía, mi esforzada vista no podía ver en ninguna dirección 
+                    ningún objeto capaz de servirme de guía para seguir el camino. Mi razón ya no podía albergar la menor incredulidad de que nunca más volvería a contemplar la bendita luz del día, ni a otear las agradables colinas y valles del hermoso mundo exterior. La esperanza había desaparecido. 
+                    Sin embargo, adoctrinado como estaba por una vida de estudios filosóficos, mi conducta impasible me producía no poca satisfacción, pues aunque había leído con frecuencia sobre los salvajes frenesíes en que se sumían las víctimas de situaciones similares, yo no experimenté ninguna de ellas, sino que me quedé tranquilo en cuanto me di cuenta claramente de la pérdida de mi orientación. <br>
+
+                    <br>Ni la idea de que probablemente me había desviado más allá de los límites de una búsqueda ordinaria me hizo abandonar la compostura ni siquiera por un momento. Si tenía que morir, reflexioné, entonces esta terrible pero majestuosa caverna era un sepulcro tan acogedor como el que podría ofrecerme cualquier cementerio, una concepción que llevaba consigo más tranquilidad que desesperación. <br>
+            
+                    <br>Morir de hambre sería mi destino final; de esto estaba seguro. Sabía que algunos se habían vuelto locos en circunstancias como aquéllas, pero yo sentía que ese no sería mi fin. Mi desastre no había sido culpa mía, ya que, sin que el guía lo supiera, me había separado del grupo habitual de turistas y, vagando durante más de una hora por las avenidas prohibidas de la cueva, 
+                    me había visto incapaz de seguir los tortuosos caminos que había seguido desde que abandoné a mis compañeros. <br>
+            
+                    <br>Mi antorcha empezaba ya a extinguirse; pronto me envolvería la negrura total y casi palpable de las entrañas de la tierra. Mientras permanecía en la luz menguante e inestable, me preguntaba ociosamente sobre las circunstancias exactas de mi próximo fin. Recordé los relatos que había oído acerca de la colonia de tuberculosos que, instalándose en aquella gigantesca 
+                    gruta para encontrar la salud en el aire aparentemente salubre del mundo subterráneo, con su temperatura constante y uniforme, su aire puro y su apacible quietud, habían encontrado, en cambio, la muerte en forma extraña y espantosa. Había visto los tristes restos de sus cabañas mal construidas cuando pasé junto a ellos con el grupo, y me había preguntado 
+                    qué influencia antinatural ejercería una larga estancia en esta inmensa y silenciosa caverna sobre alguien tan sano y vigoroso como yo. Ahora, me dije sombríamente, había llegado mi oportunidad de resolver este punto, siempre que la falta de comida no me trajera una partida demasiado rápida de esta vida. <br>
+
+                    <br>Cuando los últimos rayos de mi antorcha se desvanecieron en la oscuridad, decidí no dejar piedra sin remover, ni descuidar ningún posible medio de escape; así que, haciendo acopio de todas las fuerzas que poseían mis pulmones, empecé a gritar con fuerza, con la vana esperanza de atraer la atención del guía con mi clamor. Sin embargo, mientras gritaba, 
+                    creía en mi corazón que mis gritos eran inútiles, y que mi voz, magnificada y reflejada por las innumerables murallas del negro laberinto que me rodeaba, no llegaba a oídos más que a los míos. <br>
+
+                    <br> De pronto, sin embargo, mi atención se fijó en un sobresalto cuando me pareció oír el sonido de suaves pasos que se acercaban por el suelo rocoso de la caverna. <br>
+            
+                    <br>¿Estaba a punto de cumplirse tan pronto mi liberación? Entonces, ¿habían sido en vano todas mis horribles aprensiones, y el guía, habiendo notado mi injustificada ausencia del grupo, seguía mi curso y me buscaba en este laberinto de piedra caliza? Mientras estas alegres preguntas surgían en mi cerebro, estaba a punto de reanudar mis gritos, 
+                    para que mi descubrimiento se produjera cuanto antes, cuando en un instante mi deleite se convirtió en horror al escuchar; porque mi siempre agudo oído, ahora agudizado aún más por el completo silencio de la cueva, llevó a mi entumecido entendimiento el inesperado y espantoso conocimiento de que aquellas pisadas no eran como las de ningún hombre mortal. 
+                    En la quietud sobrenatural de esta región subterránea, la pisada del guía calzado habría sonado como una serie golpes agudos e incisivos.
+                    Estos impactos eran suaves y sigilosos, como los de las zarpas de algún felino. Además, cuando escuché atentamente, me pareció rastrear las caídas de cuatro pies en lugar de dos. 
+                </p> 
+            </div>
+
+            <div class="container-sm bg-light" id="subasta">
+                <h2 class="text-dark">Subasta (Pelea de gallos, 2018)</h2>
+                <h4 class="text-dark">María Fernanda Ampuero</h4>
+                <p class="text-dark">
+                    En algún lado hay gallos. <br>
+                    <br> Aquí, de rodillas, con la cabeza gacha y cubierta con
+                    un trapo inmundo, me concentro en escuchar a los gallos,
+                    cuántos son, si están en jaula o en corral. Papá era gallero y,
+                    como no tenía con quién dejarme, me llevaba a las peleas.
+                    Las primeras veces lloraba al ver al gallito desbaratado
+                    sobre la arena y él se reía y me decía mujercita. <br>
+                    <br> Por la noche, gallos gigantes, vampiros, devoraban mis
+                    tripas, gritaba y él venía a mi cama y me volvía a decir
+                    mujercita. <br>
+                    <br> -Ya, no seas tan mujercita. Son gallos, carajo.
+                    Después ya no lloraba al ver las tripas calientes del gallo
+                    perdedor mezclándose con el polvo. Yo era quien recogía
+                    esa bola de plumas y vísceras y la llevaba al contenedor
+                    de la basura. Yo les decía: adiós gallito, sé feliz en el cielo
+                    donde hay miles de gusanos y campo y maíz y familias
+                    que aman a los gallitos. De camino, siempre algún señor
+                    gallero me daba un caramelo o una moneda por tocarme o
+                    besarme o tocarlo y besarlo. Tenía miedo de que, si se lo
+                    decía a papá, volviera a llamarme mujercita. <br>
+
+                    <br>-Ya, no seas tan mujercita. Son galleros, carajo. <br>
+                    <br>Una noche, a un gallo le explotó la barriga mientras lo
+                    llevaba en mis brazos como a una muñeca y descubrí que a
+                    esos señores tan machos que gritaban y azuzaban para que
+                    un gallo abriera en canal a otro, les daba asco la caca y la
+                    sangre y las vísceras del gallo muerto. Así que me llenaba
+                    las manos, las rodillas y la cara con esa mezcla y ya no me
+                    jodían con besos ni pendejadas.<br>
+                    <br>Le decían a mi papá:<br>
+                    <br>-Tu hija es una monstrua. <br>
+                    <br>Y él respondía que más monstruos eran ellos y después
+                    les chocaba los vasitos de licor.<br>
+                    <br>-Más monstruo vos. Salud. <br>
+                    <br> El olor dentro de una gallera es asqueroso. A veces me
+                    quedaba dormida en una esquina, debajo de las graderías,
+                    y despertaba con algún hombre de esos mirándome la ropa
+                    interior por debajo del uniforme del colegio. Por eso antes
+                    de quedarme dormida me metía la cabeza de un gallo en
+                    medio de las piernas. Una o muchas. Un cinturón de cabezas de gallitos. 
+                    Levantar una falda y encontrarse cabecitas arrancadas 
+                    tampoco gustaba a los machos. <br>
+                    <br> A veces, papá me despertaba para que tirara a la basura
+                    otro gallo despanzurrado. A veces, iba él mismo y los amigos 
+                    le decían que para qué mierda tenía a la muchacha, que si era
+                    un maricón. Él se iba con el gallo descuajaringado
+                    chorreando sangre. Desde la puerta les tiraba un beso. Los
+                    amigos se reían.<br>
+                    <br> Sé que aquí, en algún lado, hay gallos, porque reconocería 
+                    ese olor a miles de kilómetros. El olor de mi vida, el
+                    olor de mi padre. Huele a sangre, a hombre, a caca, a licor
+                    barato, a sudor agrio y a grasa industrial. No hay que ser
+                    muy inteligente para saber que este es un sitio clandestino,
+                    un lugar refundido quién sabe dónde, y que estoy muy pero
+                    que muy jodida. <br>
+                    <br> Habla un hombre. Tendrá unos cuarenta. Lo imagino
+                    gordo, calvo y sucio, con camiseta blanca sin mangas, short
+                    y chancletas plásticas, le imagino las uñas del meñique y
+                    del pulgar largas. Habla en plural. Aquí hay alguien más
+                    que yo. Aquí hay más gente de rodillas, con la cabeza
+                    gacha, cubierta por esta asquerosa tela oscura.<br>
+                    <br>-A ver, nos vamos tranquilizando, que al primer hijueputa 
+                    que haga un solo ruido le meto un tiro en la cabeza.
+                    Si todos colaboramos, todos salimos de esta noche enteros.
+                    Siento su panza contra mi cabeza y luego el cañón de
+                    la pistola. No, no bromea. <br>
+                    <br>Una chica llora unos metros a mi derecha. Supongo que
+                    no ha soportado sentir la pistola en la sien. Se escucha una
+                    bofetada.<br>
+                    <br>-A ver, reina. Aquí no me llora nadie, ¿me oyó? ¿O ya
+                    está apurada por irse a saludar a diosito?
+                    Luego, el gordo de la pistola se aleja un poco. Ha ido a
+                    hablar por teléfono. Dice un número: seis, seis malparidos.
+                    Dice también muy buena selección, buenísima, la mejor en
+                    meses. Recomienda no perdérsela. Hace una llamada tras
+                    otra. Se olvida, por un rato, de nosotros.
+                    A mi lado escucho una tos ahogada por la tela, una tos
+                    de hombre. <br>
+                    <br>-He oído de esto -dice él, muy bajito-. Pensé que era
+                    mentira, leyenda. Se llaman subastas. Los taxistas eligen
+                    pasajeros que creen que pueden servir para que den buena
+                    plata por ellos y para eso los secuestran. Luego los compradores 
+                    vienen y pujan por sus preferidos o preferidas. Se
+                    los llevan. Se quedan con sus cosas, los obligan a robar, a
+                    abrirles sus casas, a darles sus números de tarjeta de crédito. Y a las mujeres. 
+                    A las mujeres. <br>
+
+                    <br> -¿Qué? -le digo. <br>
+                    Escucha que soy mujer. Se queda callado. <br>
+                    <br> Lo primero que pensé cuando me subí al taxi esa noche
+                    fue por fin. Apoyé mi cabeza en el asiento y cerré los ojos.
+                    Había bebido unas cuantas copas y estaba tristísima. En el
+                    bar estaba el hombre por el que tenía que fingir amistad. A
+                    él y a su mujer. Siempre finjo, soy buena fingiendo. Pero
+                    cuando me subí al taxi exhalé y me dije qué alivio: voy a
+                    casa, a llorar a gritos. Creo que me quedé dormida un
+                    momento y, de repente, al abrir los ojos, estaba en una 
+                    ciudad desconocida. Un polígono. Vacío. Oscuridad. La alerta
+                    que hace hervir el cerebro: se te acaba de joder la vida.<br>
+                    <br> El taxista sacó una pistola, me miró a los ojos, dijo con
+                    una amabilidad ridícula: <br>
+                    <br> -Llegamos a su destino, señorita. <br>
+                    <br> Lo que siguió fue rápido. Alguien abrió la puerta antes
+                    de que yo pudiera poner el seguro, me echó el trapo sobre
+                    la cabeza, me ató las manos y me metió en esa especie de
+                    garaje con olor a gallera podrida y me obligó a arrodillarme
+                    en una esquina. <br>
+                    <br> Se escuchan conversaciones. El gordo y alguien más y
+                    luego otro y otro. Llega gente. Se escuchan risas y destapar 
+                    cervezas. Empieza a oler a maría y alguna otra de esas
+                    mierdas con olor picante. El hombre que está a mi lado
+                    hace rato que ya no me dice que esté tranquila. Se lo debe
+                    estar diciendo a sí mismo. <br>
+                    <br> Mencionó antes que tenía un bebé de ocho meses y un
+                    niño de tres. Estará pensando en ellos. Y en estos tipos
+                    drogados entrando en la urbanización privada en la que
+                    vive. Sí, está pensando en eso. En él saludando al guardia
+                    de seguridad como todas las noches desde que su carro
+                    está en el taller, mientras esas bestias van atrás, agachados.
+                    Él los va a meter en su casa donde está su hermosa mujer,
+                    su bebé de ocho meses y su niño de tres años. Él los va a
+                    meter a su casa. <br>
+                    Y no hay nada que pueda hacer al respecto. <br>
+                    <br> Más allá, a la derecha, se escuchan murmullos, una chica
+                    que llora, no sé si la misma que ha llorado antes. El gordo
+                    dispara y todos nos tiramos al suelo como podemos. No
+                    nos ha disparado, ha disparado. Da igual, el terror nos ha
+                    cortado en dos mitades. Se escucha la risa del gordo y sus
+                    compañeros. Se acercan, nos mueven al centro de la sala. <br>
+                    <br> -Bueno, señores, señoras, queda abierta la subasta de
+                    esta noche. Bien bonitos, bien portaditos, se me van a poner
+                    aquí. Más acá, mi reina. Eeeso. Sin miedo, mami, que no
+                    muerdo. Así me gusta. Para que estos caballeros elijan a
+                    cuál de ustedes se van a llevar. Las reglas, caballeros, las
+                    de siempre: más plata se lleva la mejor prenda. Las armas
+                    me las dejan por aquí mientras dure la subasta, yo se las
+                    guardo. Gracias. Encantado, como siempre, de recibirlos. <br>
+                    <br> El gordo nos va presentando como si dirigiera un programa 
+                    de televisión. No podemos verlos, pero sabemos
+                    que hay ladrones mirándonos, eligiéndonos. Y violadores.
+                    Seguro que hay violadores. Y asesinos. Tal vez hay asesinos. 
+                    O algo peor. <br>
+                    <br> -Daaaaaaamas y caballeeeeeeros.<br>
+                    Al gordo no le gustan los que lloriquean ni los que dicen
+                    que tienen niños ni los que gritan a la desesperada no sabes
+                    con quién te estás metiendo. No. Menos le gustan los que
+                    amenazan con que se va a pudrir en la cárcel. Todos esos,
+                    mujeres y hombres, ya han recibido puñetazos en la barriga.
+                    He escuchado gente caer al suelo sin aire. Yo me concentro
+                    en los gallos. Tal vez no hay ninguno. Pero yo los escucho.
+                    Dentro de mí. Gallos y hombres. (Ya, no seas tan mujercita, 
+                    son galleros, carajo.) <br>
+            
+                    <br> -Este señor, ¿cómo se llama nuestro primer participante? ¿Cómo?
+                    Hable fuerte, amigo. Ricardoooooo, bienvenidoooo, lleva un 
+                    reloj de marca y unos zapatos Adidas de los bueeeenos. Ricardoooooo
+                    ha de tener plaaaaaaaataaaaaaa. A ver la cartera de Ricardo. 
+                    Tarjetas de crédito, ohhhhhh, Visa Goooooold de Messi. <br>
+
+                    <br> El gordo hace chistes malos. <br>
+
+                    <br> Empiezan a pujar por Ricardo. Uno ofrece trescientos, otro ochocientos.
+                    El gordo añade que Ricardo vive en una ubicación privada en las
+                    afueras de la ciudad: Vistas del Río. <br>
+                
+                    <br> -Allá donde no podemos ni asomarnos los pobres. Allá vive el amigo
+                    Riqui. Sí le puedo decir Riqui, ¿no? Como Riqui Ricón. <br>
+
+                    <br>Una voz aterradora dice cinco mil. La voz aterradora se lleva a Ricardo.
+                    Los otros aplauden.<br>
+            
+                    <br>-¡Adjudicado al caballero de bigote por cinco mil! <br>
+                    <br> A Nancy, una chica que habla con un jilito de voz, el gordo la toca. Lo 
+                    sé porque dice (miren qué tetas, qué ricas, qué paraditas, qué pezoncitos)
+                    y se sorbe la baba y esas cosas no se dicen sin tocar y, además, qué le 
+                    impide tocar, quién. Nancy suena joven. Veintipocas. Podría ser enfermera
+                    o educadora. A Nancy el gordo la desnuda. Escuchamos que abre su cinturón 
+                    y que abre los botones y que le arranca la ropa interior, aunque ella dice 
+                    (por favor) tanta veces y con tanto miedo que todos mojamos nuestros trapos
+                    inmundos con lágrimas. Miren este culito. Ay, qué cosita. El gordo sorbe a 
+                    Nancy, el ano de Nancy. Se escuchan lengüeteos. Los hombres azuzan, repugnanten, 
+                    aplauden. Luego el embestir de carne contra carne. Y los aullidos. Los aullidos. <br>
+            
+                    <br> -Caballeros, esto no es por vicio. Es control de calidad. Le doy un diez. Ahí
+                    la limpian bien bonito y una delicia nuestra amiguita Nancy. <br>
+            
+                    <br> Debe ser hermosa porque ofrecen, de inmediato, dos mil, tres, tres quinientos. Venden a 
+                    Nancy en tres quinientos. El sexo es más barato que la plata. <br>
+        
+                    <br> -Y el afortunado que se lleva este culito rico es el caballero del anillo de 
+                    oro y el crucifijo. <br>
+            
+                    <br> Nos van vendiendo uno a uno. Al chico que estaba a mi lado, el del bebé de 
+                    ocho meses y el niño de tres, el gordo ha logrado sacarle toda la información 
+                    posible y ahora es una pez gordísimo para la subasta: plata en diferentes cuentas, 
+                    alto ejecutivo, hijo de un empresario, obras de arte, hijos, mujer. El tipo es 
+                    la lotería. Seguramente lo secuestrarán y pedirán un rescate. La puja empieza 
+                    en cinco mil. Sube hasta diez, quince mil. Se para en veinte. Una voz nueva. He 
+                    venido solo para esto. <br>
+                    <br> No estaba para perder tiempo en pendejadas.  <br>
+                    
+                    <br> El gordo no hace ningún comentario. <br>
+
+                    <br> Cuando me toca a mí, pienso en los gallos. Cierro los ojos y abro mis esfínteres. 
+                    Es lo más importante que hará en mi vida, así que lo haré bien. Me baño las piernas, 
+                    los pies, el suelo. Estoy en el centro de una sala, rodeada por delincuentes, exhibida 
+                    ante ellos como una res y como una res vacío mi vientre. Como puedo, froto una pierna 
+                    contra la otra, adopto la posición de una muñeca destripada. Grito como una loca. 
+                    Agito la cabeza, mascullo obsenidades, palabras inventadas, las cosas que les decía 
+                    a los gallos del cielo con maíz y gusanos infinitos. <br>
+                    <br> Sé que el gordo está a punto de dispararme. <br>
+                    <br> En cambio, me revienta la boca de un manazo, me parto la lengua de un mordisco. La 
+                    sangre empieza a caer por mi pecho, a bajar por mi estómago, a mezclarse con la mierda 
+                    y la orina. Empiezo a reír, enajenada, a reír, a reír. <br>
+                    <br> El gordo no sabe qué hacer. <br>
+                    <br> -¿Cuánto por este monstruo? <br>
+                    <br> Nadie quiere dar nada. <br>
+                    <br> El gordo ofrece mi reloj, mi teléfono, mi cartera. Todo es barato, chino. Me coje las 
+                    tetas para ver si la cosa se anima y chillo. <br>
+                    <br>-¿Quince, veinte? <br>
+                    <br>Pero nanda, nadie. <br>
+                    <br>Me tiran a un patio. Me bañan con una manguera de lavar carros y luego me suben a un carro 
+                    que me deja mojada, descalza, aturdida, en la Vía Perimetral. 
+
+                </p>
+                
+            </div>
+
+        <!--POEMAS-->
+            <div class="container-sm bg-dark" id="palace">
+                <h2 class="text-light">The Haunted Palace (1839)</h2>
+                <h4 class="text-light">Edgar Allan Poe</h4>
+                <p class="text-light">
+                    In the greenest of our valleys <br>
+                    By good angels tenanted, <br>
+                    Once a fair and stately palace- <br>
+                    Radiant palace- reared its head. <br>
+                    In the monarch Thought's dominion- <br>
+                    It stood there! <br>
+                    Never seraph spread a pinion <br>
+                    Over fabric half so fair! <br>
+                    Banners yellow, glorious, golden, <br>
+                    On its roof did float and flow, <br>
+                    (This- all this- was in the olden <br>
+                    Time long ago,) <br>
+                    And every gentle air that dallied, <br>
+                    In that sweet day, <br>
+                    Along the ramparts plumed and pallid, <br>
+                    A winged odor went away. <br>
+
+                    <br>Wanderers in that happy valley, <br>
+                    Through two luminous windows, saw <br>
+                    Spirits moving musically, <br>
+                    To a lute's well-tuned law, <br>
+                    Round about a throne where, sitting <br>
+                    (Porphyrogene!) <br>
+                    In state his glory well-befitting, <br>
+                    The ruler of the realm was seen. <br>
+                
+                    <br>And all with pearl and ruby glowing <br>
+                    Was the fair palace door, <br>
+                    Through which came flowing, flowing, flowing, <br>
+                    And sparkling evermore, <br>
+                    A troop of Echoes, whose sweet duty <br>
+                    Was but to sing, <br>
+                    In voices of surpassing beauty, <br>
+                    The wit and wisdom of their king. <br>
+        
+                    <br> But evil things, in robes of sorrow,<br>
+                    Assailed the monarch's high estate. <br>
+                    (Ah, let us mourn!- for never morrow <br>
+                    Shall dawn upon him desolate!) <br>
+                    And round about his home the glory <br>
+                    That blushed and bloomed, <br>
+                    Is but a dim-remembered story <br>
+                    Of the old time entombed. 
+        
+                    <br>And travellers, now, within that valley, <br>
+                    Through the red-litten windows see <br>
+                    Vast forms, that move fantastically <br>
+                    To a discordant melody, <br>
+                    While, like a ghastly rapid river, <br>
+                    Through the pale door <br>
+                    A hideous throng rush out forever <br>
+                    And laugh- but smile no more. 
+                </p>
+
+            </div>
+
+            <div class="container-sm bg-light" id="nemesis">
+                <h2 class="text-dark">Nemesis</h2>
+                <h4 class="text-dark">H. P. Lovecraft</h4>
+                <p class="text-dark">
+                    Through the ghoul-guarded gateways of slumber, <br>                               
+                    Past the wan-mooned abysses of night, <br>                                       
+                    I have lived o'er my lives without number, <br>                                      
+                    I have sounded all things with my sight; <br>                                     
+                    And I struggle and shriek ere the daybreak, being driven to madness with fright. <br>
+                                                                    
+                    <br> I have whirled with the earth at the dawning, <br>                                    
+                    When the sky was a vaporous flame; <br>                                      
+                    I have seen the dark universe yawning <br>                                            
+                    Where the black planets roll without aim, <br>                                   
+                    Where they roll in their horror unheeded, without knowledge or lustre or name. <br>
+                                                                                    
+                    <br>I had drifted o'er seas without ending, <br>                                            
+                    Under sinister grey-clouded skies, <br>                                             
+                    That the many-forked lightning is rending, <br>                                       
+                    That resound with hysterical cries; <br>                                           
+                    With the moans of invisible daemons, that out of the green waters rise.  <br>
+                                                                                        
+                    <br>I have plunged like a deer through the arches <br>                                   
+                    Of the hoary primoridal grove, <br>                                               
+                    Where the oaks feel the presence that marches, <br>                                 
+                    And stalks on where no spirit dares rove, <br>                                   
+                    And I flee from a thing that surrounds me, and leers through dead branches <br>  
+                    above.   <br>
+                                                                                        
+                    <br>I have stumbled by cave-ridden mountains <br>                                        
+                    That rise barren and bleak from the plain, <br>                                    
+                    I have drunk of the fog-foetid fountains <br>                                       
+                    That ooze down to the marsh and the main; <br>                                   
+                    And in hot cursed tarns I have seen things, I care not to gaze on again. <br> 
+                                                                                        
+                    <br>I have scanned the vast ivy-clad palace, <br>                                       
+                    I have trod its untenanted hall, <br>                                            
+                    Where the moon rising up from the valleys <br>                                       
+                    Shows the tapestried things on the wall; <br>                                     
+                    Strange figures discordantly woven, that I cannot endure to recall.  <br>
+            
+                    <br>I have peered from the casements in wonder <br>                                     
+                    At the mouldering meadows around, <br>                                           
+                    At the many-roofed village laid under <br>                                          
+                    The curse of a grave-girdled ground; <br>                                         
+                    And from rows of white urn-carven marble, I listen intently for sound. <br> 
+                                                                                            
+                    <br>I have haunted the tombs of the ages, <br>                                           
+                    I have flown on the pinions of fear, <br>                                         
+                    Where the smoke-belching Erebus rages; <br>                                         
+                    Where the jokulls loom snow-clad and drear: <br>                                 
+                    And in realms where the sun of the desert consumes what it never can cheer. <br>  
+                                                                                        
+                    <br>I was old when the pharaohs first mounted <br>                                       
+                    The jewel-decked throne by the Nile; <br>                                         
+                    I was old in those epochs uncounted <br>                                             
+                    When I, and I only, was vile; <br>                                               
+                    And Man, yet untainted and happy, dwelt in bliss on the far Arctic isle. <br>
+                                                                                        
+                    <br>Oh, great was the sin of my spirit, <br>                                             
+                    And great is the reach of its doom; <br>                                         
+                    Not the pity of Heaven can cheer it, <br>                                           
+                    Nor can respite be found in the tomb: <br>                                       
+                    Down the infinite aeons come beating the wings of unmerciful gloom. <br>
+                
+                    <br>Through the ghoul-guarded gateways of slumber, <br>                                 
+                    Past the wan-mooned abysses of night,  <br>                                      
+                    I have lived o'er my lives without number,  <br>                                    
+                    I have sounded all things with my sight; <br>                                     
+                    And I struggle and shriek ere the daybreak, being driven to madness with fright.
+                </p>
+
+            </div>
+
+        
+        </div> <!--Fin de la columna 2 principal-->
+    </div> <!--Fin fila principal-->
+</div> <!--fin Container principal-->
+
+    <footer class="bg-dark">
+        <p class="text-light"> ©2024 Mi primera página. Todos los derechos reservados.</p>
+    </footer>
+
+    
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
